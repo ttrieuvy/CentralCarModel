@@ -471,7 +471,7 @@
                                         <span class="default-price">' . number_format($product['price']) . '₫</span>
                                         <span class="promotional-price">' . number_format($price_sale) . '₫</span>
                                     </div>
-                                    <a href="../product/product-details.php?id_product=' . $product['id_product'] . '">
+                                    <a href="../view/product/product-details.php?id_product=' . $product['id_product'] . '">
                                     <i id="search" class="fa-solid fa-magnifying-glass"></i>
                                     </a>
                                     <div class="btn-product-cart">
