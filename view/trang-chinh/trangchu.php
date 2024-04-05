@@ -464,7 +464,7 @@
                             <span class="default-price">' . number_format($producthot['price']) . '₫</span>
                             <span class="promotional-price">' . number_format($price_sale) . '₫</span>
                         </div>
-                        <a href="../product/product-details.php?id_product=' . $producthot['id_product'] . '"><i id="search" class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="../view/product/product-details.php?id_product=' . $producthot['id_product'] . '"><i id="search" class="fa-solid fa-magnifying-glass"></i></a>
                         <div class="btn-product-cart">
                             <button class="button-cart" >
                                 <a class="button-content"  href="'.$CONTROLLER_URL.'/addToCart.php?id_product='.$producthot['id_product'].'&shop-cart">THÊM VÀO GIỎ</a>
@@ -547,7 +547,7 @@
                             <span class="default-price">' . number_format($product_sale['price']) . '₫</span>
                             <span class="promotional-price">' . number_format($price_sale) . '₫</span>
                         </div>
-                        <a href="../product/product-details.php?id_product=' . $product_sale['id_product'] . '"><i id="search" class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="../view/product/product-details.php?id_product=' . $product_sale['id_product'] . '"><i id="search" class="fa-solid fa-magnifying-glass"></i></a>
                         <div class="btn-product-cart">
                             <button class="button-cart">
                             <a class="button-content" href="'.$CONTROLLER_URL.'/addToCart.php?id_product='.$product_sale['id_product'].'&shop-cart">THÊM VÀO GIỎ</a>
